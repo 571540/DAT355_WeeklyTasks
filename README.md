@@ -9,7 +9,7 @@ See folder named "EMF_Forms". I have done only the compulsory tasks of this week
 
 ## Using ETL - Week 5
 
-See folder named "mt-lecture-main". I had some real problems with this one. For some reason, on task 2, my EGL run configuration won't work so I was not able generate the html folders. And task 3 was difficult, I wasn't able to complete it, I wish there were more documentation on the epsilon languages besides https://www.eclipse.org/epsilon/doc/. I tried to write the code in the .etl file but did not get very far. I overall think the descriptions for task 2 and 3 were too vague and was hard to understand how to actually solve them. I apologise for not being able to fully complete the task 2 and 3, but I tried.
+See folder named "mt-lecture-main". I had some real problems with this one. For some reason, on task 2, my EGL run configuration won't work so I was not able generate the html folders. And task 3 was difficult, I wasn't able to complete it. I wish there were more documentation on the epsilon languages besides https://www.eclipse.org/epsilon/doc/. I tried to write the code in the .etl file but did not get very far. I overall think the descriptions for task 2 and 3 were too vague and was hard to understand how to actually solve them. I apologise for not being able to fully complete the task 2 and 3, but I tried.
 
 ### Task 1.1
 Bowling model from exercise 1 - Model-to-text
