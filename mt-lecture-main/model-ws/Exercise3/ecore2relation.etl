@@ -1,0 +1,6 @@
+rule EPackage2Schema
+transform p : Input!EPackage
+to s : Output!Schema {
+	var table = p.eClassifiers.equivalent();
+	s.tables = tables;
+}

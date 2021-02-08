@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="metamodels-ws/blog-dsl.edit/src"/>
+	<classpathentry kind="src" path="metamodels-ws/blog-dsl.editor/src"/>
+	<classpathentry kind="src" path="metamodels-ws/blog-dsl.tests/src"/>
+	<classpathentry kind="src" path="metamodels-ws/blog-dsl/src"/>
+	<classpathentry excluding="flowchart/diagram/parsers/" kind="src" path="metamodels-ws/flowchart.diagram/src"/>
+	<classpathentry kind="src" path="metamodels-ws/flowchart.diagram/src/flowchart/diagram/parsers"/>
+	<classpathentry kind="src" path="metamodels-ws/flowchart.edit/src"/>
+	<classpathentry kind="src" path="metamodels-ws/flowchart.editor/src"/>
+	<classpathentry kind="src" path="metamodels-ws/flowchart.tests/src"/>
+	<classpathentry kind="src" path="metamodels-ws/flowchart/src"/>
+	<classpathentry kind="src" path="metamodels-ws/javacode.edit/src"/>
+	<classpathentry kind="src" path="metamodels-ws/javacode.editor/src"/>
+	<classpathentry kind="src" path="metamodels-ws/javacode.tests/src"/>
+	<classpathentry kind="src" path="metamodels-ws/javacode/src"/>
+	<classpathentry kind="src" path="metamodels-ws/relational-model.edit/src"/>
+	<classpathentry kind="src" path="metamodels-ws/relational-model.editor/src"/>
+	<classpathentry kind="src" path="metamodels-ws/relational-model.tests/src"/>
+	<classpathentry kind="src" path="metamodels-ws/relational-model/src"/>
+	<classpathentry kind="src" path="metamodels-ws/tables.edit/src"/>
+	<classpathentry kind="src" path="metamodels-ws/tables.editor/src"/>
+	<classpathentry kind="src" path="metamodels-ws/tables.tests/src"/>
+	<classpathentry kind="src" path="metamodels-ws/tables/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

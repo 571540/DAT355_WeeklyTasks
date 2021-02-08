@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+ 		<h1>[%= p.title %] </h1>
+ 		<h2>Published: [%= p.publishedDate %]</h2>
+ 		<h3>Categories: [% for (category in p.categories) { %] [%= category %] [%  } %] </h3>
+ 		[% for (content in p.content) { %] [%  } %] 
+</html>

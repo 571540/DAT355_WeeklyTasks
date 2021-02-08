@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+ 	<h2>[%= p.title %]</h2>
+ 	<h3>Categories: [% for (category in p.categories) { %] [%= category %] [%  } %] </h3>
+ 	[% for (content in p.content) { %]
+ 	[%  } %] 
+</html>
