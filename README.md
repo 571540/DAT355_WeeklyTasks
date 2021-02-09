@@ -17,6 +17,10 @@ Bowling model from exercise 1 - Model-to-text
 -	Heterogenous
 -	Declarative
 
+Families2Persons - Model-to-model
+-	Out-place
+-	Heterogenous
+-	Imperative
 
 ### Task 1.2
 
