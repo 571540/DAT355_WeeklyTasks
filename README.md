@@ -30,5 +30,11 @@ Yes, I would consider the different components of a compiler as model transforma
 
 See folders named Exercise 1 and Exercise 3
 
+## Create DSL - Week 8
 
+See folder "CreateDSL". I have followed step 1 and 3, and created a metamodel which is more or less the same as in the timedStateMachine-project, generated code and developed textual concrete syntax with Xtext. You can find this in the "stateMachineDSL"-folder. 
+
+Next I tried to create a graphical interface by following the sirius-mindstorm videos on youtube. However, it is only halfway complete. I've added new icons and added the classes to my stateMachine Diagram with relation-features, but when I was suppose to add the relational arrows, it would not work no matter how hard I tried. Without those, the rest could not be done properly. I tried many hours to get it to work. The files containing this is in the "runtime-stateMachine"-folder. 
+
+See the folder "CreateDSL/images" to see how far I got. PS, the images are wide so you have to scroll to the right to see everything.
 
