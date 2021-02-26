@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:stateMachine="http://www.example.org/stateMachine" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_d0HY4HhGEeuWNK7LJLUtxg" selectedViews="_vkOW8HhmEeu_KupR18wGFQ" version="14.3.1.202003261200">
+    <semanticResources>trafficLights.statemachine</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vkOW8HhmEeu_KupR18wGFQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xODbgHhmEeu_KupR18wGFQ" name="Main State Machine Diagram" repPath="#_xNzj4HhmEeu_KupR18wGFQ" changeId="f40e2746-675d-473d-91b5-97ef0a5b0eec">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']"/>
+        <target xmi:type="stateMachine:StateMachine" href="trafficLights.statemachine#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_xNzj4HhmEeu_KupR18wGFQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xOZZwHhmEeu_KupR18wGFQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_xOZZwXhmEeu_KupR18wGFQ" type="Sirius" element="_xNzj4HhmEeu_KupR18wGFQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_zgiMwHhsEeu_KupR18wGFQ" type="2001" element="_zftGUHhsEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_zgiMw3hsEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zgiMxHhsEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zgmeMHhsEeu_KupR18wGFQ" type="3005" element="_zgABQHhsEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zgmeMXhsEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgmeMnhsEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zgiMwXhsEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgiMwnhsEeu_KupR18wGFQ" x="73" y="252" width="108" height="107"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zglQEHhsEeu_KupR18wGFQ" type="2001" element="_zgAoUHhsEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_zgl3IHhsEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zgl3IXhsEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zgmeM3hsEeu_KupR18wGFQ" type="3005" element="_zgFg0HhsEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zgmeNHhsEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgmeNXhsEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zglQEXhsEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zglQEnhsEeu_KupR18wGFQ" x="120" y="106" width="108" height="107"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zgl3InhsEeu_KupR18wGFQ" type="2001" element="_zgGH4HhsEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_zgl3JXhsEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zgl3JnhsEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zgmeNnhsEeu_KupR18wGFQ" type="3005" element="_zgIkIHhsEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zgmeN3hsEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgmeOHhsEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zgl3I3hsEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgl3JHhsEeu_KupR18wGFQ" x="396" width="108" height="107"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uOen0HhtEeu_KupR18wGFQ" type="2001" element="_uOa9cHhtEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_uOfO4HhtEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uOfO4XhtEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uPO1wHhtEeu_KupR18wGFQ" type="3005" element="_uObkgHhtEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uPO1wXhtEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPO1wnhtEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uOen0XhtEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uOen0nhtEeu_KupR18wGFQ" x="264" y="312" width="110" height="97"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uPNnoHhtEeu_KupR18wGFQ" type="2001" element="_uObkgnhtEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_uPNno3htEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uPNnpHhtEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uPO1w3htEeu_KupR18wGFQ" type="3005" element="_uOcLkHhtEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uPO1xHhtEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPO1xXhtEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uPNnoXhtEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPNnonhtEeu_KupR18wGFQ" x="456" y="212" width="109" height="109"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uPNnpXhtEeu_KupR18wGFQ" type="2001" element="_uOcLknhtEeu_KupR18wGFQ">
+          <children xmi:type="notation:Node" xmi:id="_uPOOsHhtEeu_KupR18wGFQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uPOOsXhtEeu_KupR18wGFQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uPO1xnhtEeu_KupR18wGFQ" type="3005" element="_uOcLk3htEeu_KupR18wGFQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uPO1x3htEeu_KupR18wGFQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPO1yHhtEeu_KupR18wGFQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uPNnpnhtEeu_KupR18wGFQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPNnp3htEeu_KupR18wGFQ" x="437" y="432" width="106" height="97"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_xOZZwnhmEeu_KupR18wGFQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xOeSQHhmEeu_KupR18wGFQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_xOfgYHhmEeu_KupR18wGFQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zftGUHhsEeu_KupR18wGFQ" name="green-to-yellow" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.0"/>
+      <semanticElements xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_zgABQHhsEeu_KupR18wGFQ" labelSize="12" showIcon="false" labelAlignment="LEFT" workspacePath="/trafficLights.dsl.stateMachine.design/icons/Transition.gif">
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zgAoUHhsEeu_KupR18wGFQ" name="yellow-to-red" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.1"/>
+      <semanticElements xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_zgFg0HhsEeu_KupR18wGFQ" labelSize="12" showIcon="false" workspacePath="/trafficLights.dsl.stateMachine.design/icons/Transition.gif">
+        <customFeatures>labelAlignment</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zgGH4HhsEeu_KupR18wGFQ" name="red-to-green" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.2"/>
+      <semanticElements xmi:type="stateMachine:Transition" href="trafficLights.statemachine#//@transitions.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_zgIkIHhsEeu_KupR18wGFQ" labelSize="12" showIcon="false" labelAlignment="LEFT" workspacePath="/trafficLights.dsl.stateMachine.design/icons/Transition.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uOa9cHhtEeu_KupR18wGFQ" name="15" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.0/@timer"/>
+      <semanticElements xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.0/@timer"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uObkgHhtEeu_KupR18wGFQ" labelSize="12" showIcon="false" labelAlignment="RIGHT" workspacePath="/trafficLights.dsl.stateMachine.design/icons/TimeEvent.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uObkgnhtEeu_KupR18wGFQ" name="5" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.1/@timer"/>
+      <semanticElements xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.1/@timer"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uOcLkHhtEeu_KupR18wGFQ" labelSize="12" showIcon="false" labelAlignment="RIGHT" workspacePath="/trafficLights.dsl.stateMachine.design/icons/TimeEvent.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uOcLknhtEeu_KupR18wGFQ" name="20" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.2/@timer"/>
+      <semanticElements xmi:type="stateMachine:TimeEvent" href="trafficLights.statemachine#//@transitions.2/@timer"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uOcLk3htEeu_KupR18wGFQ" labelSize="12" showIcon="false" labelAlignment="RIGHT" workspacePath="/trafficLights.dsl.stateMachine.design/icons/TimeEvent.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer/@nodeMappings[name='TimeEvent']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_xN64oHhmEeu_KupR18wGFQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer"/>
+    <target xmi:type="stateMachine:StateMachine" href="trafficLights.statemachine#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

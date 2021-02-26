@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stateMachine:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:stateMachine="http://www.example.org/stateMachine" name="Start">
+  <transitions name="green-to-yellow">
+    <timer time="15"/>
+  </transitions>
+  <transitions name="yellow-to-red">
+    <timer time="5"/>
+  </transitions>
+  <transitions name="red-to-green">
+    <timer time="20"/>
+  </transitions>
+</stateMachine:StateMachine>

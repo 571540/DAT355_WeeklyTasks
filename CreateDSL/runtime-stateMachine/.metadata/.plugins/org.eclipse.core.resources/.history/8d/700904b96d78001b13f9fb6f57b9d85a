@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:stateMachine="http://www.example.org/stateMachine" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_d0HY4HhGEeuWNK7LJLUtxg" selectedViews="_vkOW8HhmEeu_KupR18wGFQ" version="14.3.1.202003261200">
+    <semanticResources>trafficLights.statemachine</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vkOW8HhmEeu_KupR18wGFQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xODbgHhmEeu_KupR18wGFQ" name="Main State Machine Diagram" repPath="#_xNzj4HhmEeu_KupR18wGFQ" changeId="fd1a2021-c58e-4a9a-ba01-ffb8da3f9c9d">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']"/>
+        <target xmi:type="stateMachine:StateMachine" href="trafficLights.statemachine#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_xNzj4HhmEeu_KupR18wGFQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xOZZwHhmEeu_KupR18wGFQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_xOZZwXhmEeu_KupR18wGFQ" type="Sirius" element="_xNzj4HhmEeu_KupR18wGFQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_xOZZwnhmEeu_KupR18wGFQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xOeSQHhmEeu_KupR18wGFQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_xOfgYHhmEeu_KupR18wGFQ"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_xN64oHhmEeu_KupR18wGFQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/trafficLights.dsl.stateMachine.design/description/stateMachine.odesign#//@ownedViewpoints[name='StateMachine']/@ownedRepresentations[name='State%20Machine%20Diagram']/@defaultLayer"/>
+    <target xmi:type="stateMachine:StateMachine" href="trafficLights.statemachine#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

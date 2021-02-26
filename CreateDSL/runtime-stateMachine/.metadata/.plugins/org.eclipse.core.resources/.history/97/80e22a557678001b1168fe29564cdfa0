@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="stateMachine" version="12.0.0.2017041100">
+  <ownedViewpoints name="StateMachine" modelFileExtension="statemachine">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="State Machine Diagram" domainClass="stateMachine::StateMachine" enablePopupBars="true">
+      <metamodel href="http://www.example.org/stateMachine#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Start" semanticCandidatesExpression="feature:start" domainClass="stateMachine::StateMachine">
+          <style xsi:type="style:DotDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="State" semanticCandidatesExpression="feature:name" domainClass="stateMachine::State">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/trafficLights.dsl.stateMachine.design/icons/State.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Transition" semanticCandidatesExpression="feature:transitions" domainClass="stateMachine::Transition">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelAlignment="RIGHT" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/trafficLights.dsl.stateMachine.design/icons/Transition.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TimeEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="stateMachine::TimeEvent">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="feature:time" labelAlignment="RIGHT" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/trafficLights.dsl.stateMachine.design/icons/TimeEvent.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:NamedElement.name=&quot;green&quot;"/>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="trafficLights.dsl.stateMachine.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+C:\Users\Marcus\git\DAT355\runtime-stateMachine\.metadata\.plugins\org.eclipse.jdt.core
+283933085.index
+1930037252.index
+609953392.index
+2038852079.index
+3637660091.index
+3045705969.index
+3977692062.index
+1766134448.index
+127012446.index
+3218426853.index
+785780248.index
+2850356772.index
+999914194.index
+1825478258.index
+133485235.index
+1879905285.index
+3817015178.index
+3070683361.index
+2608804380.index
+1233645660.index
+3784783467.index
+861038690.index
+2328269416.index
+3053838167.index
+563868447.index
